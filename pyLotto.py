@@ -36,13 +36,13 @@ def main() -> int:
     parser.add_argument('total', metavar='TOTAL', type=int, nargs=1, help='Total amount of numbers.')
 
     args = parser.parse_args()
-    (numbers, err) = pick(choose=args.pick[0], total=args.total[0])
+    (n, err) = pick(choose=args.pick[0], total=args.total[0])
 
     if err != 0:
         sys.exit(err)
 
-    numbers.sort()
-    print(numbers)
+    n.sort()
+    print(n)
     return 0
 
 
