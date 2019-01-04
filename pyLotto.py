@@ -6,7 +6,7 @@ import sys
 
 
 def pick(choose: int, total: int) -> (list, int):
-    """Pick randomly a list of numbers from a total amount of number.
+    """Pick randomly a list of numbers from a total amount of numbers.
 
     :param choose:  the amount of numbers to pick.
     :param total:   the total amount of numbers.
